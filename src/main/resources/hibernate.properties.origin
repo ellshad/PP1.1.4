@@ -1,0 +1,9 @@
+# Конфигурация базы данных (Data Source)
+hibernate.connection.url=
+hibernate.connection.username=
+hibernate.connection.password=
+
+# Конфигурация Hibernate
+hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+hibernate.show_sql=true
+hibernate.current_session_context_class=thread
